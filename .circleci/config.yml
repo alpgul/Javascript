@@ -2,6 +2,9 @@ version: 2
 jobs:
   build:
     working_directory: ~/mern-starter
-     steps:
-       -checkout
-       - run: ls -l ~/project
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'ls -l ~/project'
+      
