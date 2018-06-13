@@ -1,7 +1,6 @@
 version: 2
 jobs:
-  build:
-  machine:true
-    steps:
-      - run: echo "hello"
-      
+   build:
+     machine: true
+     steps:
+       - run: echo "hello world"
