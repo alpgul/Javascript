@@ -3,4 +3,4 @@ jobs:
    build:
      machine: true
      steps:
-       - run: echo "hello world"
+       - run: npm test index.js
