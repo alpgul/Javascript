@@ -3,4 +3,4 @@ jobs:
    build:
      machine: true
      steps:
-       - run: node /index.js
+       - run: node circleci/index.js
