@@ -3,4 +3,4 @@ jobs:
    build:
      machine: true
      steps:
-       - run: ls -l ../../circleci/project
+       - run: ls -l ~/project
