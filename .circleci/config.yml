@@ -5,4 +5,4 @@ jobs:
      docker:
       - image: circleci/node:4.8.2
      steps:
-       - run: node index.js
+       - run: sudo node index.js
