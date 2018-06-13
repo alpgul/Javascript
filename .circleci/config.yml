@@ -1,8 +1,8 @@
 version: 2
 jobs:
    build:
-     working_directory: ~/mern-starter
-     docker:
-      - image: circleci/node:4.8.2
+     working_directory: ~/tmp
+    docker:
+      - image: circleci/node:7
      steps:
-       - run: ls -l /root
+       - run: ls -l ~/tmp
