@@ -1,8 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/project
-     machine: true
+    working_directory: ~/mern-starter
      steps:
        -checkout
        - run: ls -l ~/project
