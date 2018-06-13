@@ -1,6 +1,6 @@
 version: 2
 jobs:
    build:
-     machine: true
+     working_directory: ~/mern-starter
      steps:
        - run: echo "hello world"
