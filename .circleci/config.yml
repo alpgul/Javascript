@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
+  machine:true
     steps:
-      - run:
-          command: 'ls -l ~/project'
+      - run: 'ls -l ~/project'
       
