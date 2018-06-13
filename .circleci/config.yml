@@ -3,5 +3,5 @@ jobs:
   build:
   machine:true
     steps:
-      - run: 'ls -l ~/project'
+      - run: echo "hello"
       
