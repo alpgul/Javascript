@@ -3,4 +3,4 @@ jobs:
    build:
      machine: true
      steps:
-       - run: ls
+       - run: ./index.js
