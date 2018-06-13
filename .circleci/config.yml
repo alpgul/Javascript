@@ -2,8 +2,6 @@ version: 2
 jobs:
   build:
     steps:
-      - checkout
       - run:
-          name: update-npm
           command: 'ls -l ~/project'
       
